@@ -29,7 +29,7 @@ export default function Hero() {
         Hi! I&apos;m Kira
       </h1>
       <div
-        className={`text-textDark m-[5px] p-0 text-[2.4rem] font-[400] ${styles.heroTyped}`}>
+        className={`text-textDark m-[5px] p-0 text-[24px] font-[400] ${styles.heroTyped}`}>
         <span ref={el}></span>
       </div>
     </section>
