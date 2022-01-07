@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Sidebar() {
   return (
-    <div className='top-0 left-0 w-[50px] h-[100vh] flex fixed bg-bgLightBlue items-center flex-col justify-between invisible lg:visible'>
+    <div className='top-0 left-0 w-[50px] h-[100vh] flex fixed bg-bgLightBlue items-center flex-col justify-between invisible lg:visible md:visible'>
       <div className='flex pt-[10px] pb-[10px] items-center flex-col'>
         {/* Home icon */}
         <Link href='/' className=' cursor-pointer mb-[20px] mt-[20px]' passHref>
