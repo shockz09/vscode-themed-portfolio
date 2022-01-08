@@ -5,13 +5,15 @@ import Link from 'next/link';
 
 export default function Sidebar() {
   return (
-    <div className='top-0 left-0 w-[50px] h-[100vh] flex fixed bg-bgLightBlue items-center flex-col justify-between invisible lg:visible md:visible'>
+    <div className='top-0 left-0 w-[52px] h-[100vh] flex fixed bg-bgLightBlue items-center flex-col justify-between invisible lg:visible md:visible'>
       <div className='flex pt-[10px] pb-[10px] items-center flex-col'>
         {/* Home icon */}
-        <Link href='/' className=' cursor-pointer mb-[20px] mt-[20px]' passHref>
-          <span className='inline-block relative text-lbIconColor'>
-            <FaHome size={28} />
-          </span>
+        <Link href='/' passHref>
+          <a className='cursor-pointer '>
+            <span className='inline-block relative text-lbIconColor'>
+              <FaHome size={28} />
+            </span>
+          </a>
         </Link>
 
         {/* Divider */}

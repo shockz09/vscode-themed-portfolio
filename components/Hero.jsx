@@ -1,4 +1,4 @@
-import styles from '../../styles/Hero.module.css';
+import styles from '../styles/Hero.module.css';
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 
