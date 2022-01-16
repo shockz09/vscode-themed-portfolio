@@ -11,7 +11,7 @@ function Footer() {
         <div className='inline-block mt-[3px]'>
           <DiGitBranch />
         </div>
-        <span className='inline-block pt-[2px] pb-[1px] pl-[8px] pr-[8px] text-[12px] font-sansFont mb-[2px]'>
+        <span className='inline-block pt-[2px] pb-[1.5px] pl-[8px] pr-[8px] text-[12px] font-sansFont mb-[2px]'>
           main
         </span>
       </a>
