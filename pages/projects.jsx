@@ -2,19 +2,19 @@ import Head from 'next/head';
 
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import AboutContent from '../components/Content/About';
+import ProjectsContent from '../components/Content/Projects';
 import Navbar from '../components/Navbar/Navbar';
 
-export default function About() {
+export default function Projects() {
   return (
     <>
       <Head>
-        <title>👨‍💻 About Me</title>
+        <title>👨‍💻 Projects</title>
       </Head>
       <Navbar />
+      <ProjectsContent />
       <Sidebar />
       <Footer />
-      <AboutContent />
     </>
   );
 }
