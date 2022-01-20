@@ -2,7 +2,7 @@ import About from './NavItem/About.jsx';
 import Skills from './NavItem/Skills.jsx';
 import Projects from './NavItem/Projects.jsx';
 import Contact from './NavItem/Contact.jsx';
-import Home from './navitem/Home.jsx';
+import Home from './NavItem/Home.jsx';
 
 export default function Navbar(props) {
   return (
