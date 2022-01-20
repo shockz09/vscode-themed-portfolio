@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import styles from '../../../styles/Navbar.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+
+import styles from '../../../styles/Navbar.module.css';
 
 export default function About() {
   const { asPath, pathname } = useRouter();
@@ -13,7 +14,12 @@ export default function About() {
           styles.navbarListItem
         } ${asPath === '/skills' ? 'bg-bgMidBlue' : 'bg-bgDarkBlue'}`}>
         <Image src='/assets/python.svg' alt='' width={16} height={16} />
-        <span className='relative bottom-[4px] hidden lg:inline lg:ml-[3px] md:inline md:ml-[3px]'>
+        <span
+          className={`relative bottom-[4px] lg:inline lg:ml-[3px] md:inline md:ml-[3px] ${
+            asPath === '/skills'
+              ? 'visible inline ml-[3px]'
+              : 'hidden md:visible lg:visible'
+          }`}>
           skills.py
         </span>
       </a>

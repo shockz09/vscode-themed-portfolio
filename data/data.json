@@ -1,0 +1,93 @@
+{
+  "name": "Kira",
+  "about": {
+    "introduction": "Hi! 👋. I'm Kira, a full-stack web developer and open-source enthusiast who loves to create unique themed websites and CLIs ❤ based in India. I have been programming for over a year now.",
+    "whatILike": "I love documenting my developer journey by writing blog posts on Hashnode and DEV.to and I am also a hackathon hunter 🦁."
+  },
+  "contact": [
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/eHEXe34nQz"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kira272921"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kira_272921"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://kirablog.hashnode.dev"
+    },
+    {
+      "name": "DEV.to",
+      "url": "https://dev.to/kira27291"
+    }
+  ],
+  "projects": [
+    {
+      "name": "VSCode themed portfolio",
+      "url": "https://github.com/Kira272921/vscode-themed-portfolio"
+    },
+    {
+      "name": "Unix terminal themed portfolio",
+      "url": "https://github.com/Kira272921/portfolio"
+    },
+    {
+      "name": "It's Time To Focus",
+      "url": "https://github.com/Kira272921/Its-Time-To-Focus"
+    },
+    {
+      "name": "tailwindcsscli",
+      "url": "https://github.com/Kira272921/tailwindcsscli"
+    },
+    {
+      "name": "buildnoticli",
+      "url": "https://github.com/Kira272921/buildnoticli"
+    },
+    {
+      "name": "Blahaj API",
+      "url": "https://github.com/Kira272921/Blahaj-API"
+    },
+    {
+      "name": "Blahaj Bot",
+      "url": "https://github.com/AtulACleaver/Blahaj-Bot"
+    },
+    {
+      "name": "Image recognizing bot",
+      "url": "https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%205/Image%20recognizing%20bot"
+    },
+    {
+      "name": "ASEAN BTE API",
+      "url": "https://github.com/ASEAN-Build-The-Earth/ASEAN-API-V2/tree/mongodb-support"
+    }
+  ],
+  "skills": [
+    {
+      "method": "programmingLanguages",
+      "comment": "JavaScript, Python"
+    },
+    {
+      "method": "frontend",
+      "comment": "HTML, CSS, SaaS, TailwindCSS, Bootstrap, ReactJS, NextJS, Svelte"
+    },
+    {
+      "method": "backend",
+      "comment": "NodeJS, ExpressJS"
+    },
+    {
+      "method": "database",
+      "comment": "MongoDB"
+    },
+    {
+      "method": "backendAsAService",
+      "comment": "Heroku, Firebase"
+    },
+    {
+      "method": "tools",
+      "comment": "Git, GitHub, VSCode, Figma, Codepen, Notion, Trello, Netlify, Vercel"
+    }
+  ]
+}

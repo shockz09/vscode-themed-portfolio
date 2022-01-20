@@ -2,8 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { FaTimes } from 'react-icons/fa';
-
 import styles from '../../../styles/Navbar.module.css';
 
 export default function About() {
@@ -18,7 +16,12 @@ export default function About() {
           asPath === '/about' ? 'bg-bgMidBlue' : 'bg-bgDarkBlue'
         }`}>
         <Image src='/assets/javascript.svg' alt='' width={16} height={16} />
-        <span className='relative bottom-[4px] hidden lg:inline lg:ml-[3px] md:inline md:ml-[3px]'>
+        <span
+          className={`relative bottom-[4px] lg:inline lg:ml-[3px] md:inline md:ml-[3px] ${
+            asPath === '/about'
+              ? 'visible inline ml-[3px]'
+              : 'hidden md:visible lg:visible'
+          }`}>
           about.js
         </span>
       </a>

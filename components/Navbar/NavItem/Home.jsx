@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import styles from '../../../styles/Navbar.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+
+import styles from '../../../styles/Navbar.module.css';
 
 export default function Home() {
   const { asPath, pathname } = useRouter();
@@ -15,6 +16,12 @@ export default function Home() {
           asPath === '/' ? 'bg-bgMidBlue' : 'bg-bgDarkBlue'
         }`}>
         <Image src='/avatar.png' height={16} width={16} alt='Icon' />
+        <span
+          className={`relative bottom-[4px] lg:inline lg:ml-[3px] md:inline md:ml-[3px] ${
+            asPath === '/' ? 'visible inline ml-[3px]' : 'hidden'
+          }`}>
+          {''} Home
+        </span>
       </a>
     </Link>
   );

@@ -3,3 +3,19 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333842;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9599a0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #757679;
+}
