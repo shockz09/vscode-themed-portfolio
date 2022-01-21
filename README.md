@@ -14,7 +14,7 @@ All kinds of contributions are always welcomed. It is recommended to either tell
 
 ## 🥳 Contributors
 
-Thanks a lot for time your time out and contributing to this project 🙌
+Thanks a lot for taking your time out and contributing to this project 🙌
 
 <a href="https://github.com/kira272921/vscode-themed-portfolio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kira272921/vscode-themed-portfolio" />
