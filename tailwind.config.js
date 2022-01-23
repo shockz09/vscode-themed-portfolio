@@ -29,6 +29,9 @@ module.exports = {
       fontFamily: {
         sansFont: "'Ubuntu', sans-serif",
         monoFont: "'Ubuntu Mono', monospace"
+      },
+      screens: {
+        'medmal': '500px'
       }
     },
   },

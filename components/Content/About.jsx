@@ -4,10 +4,10 @@ import data from "../../data/data.json";
 export default function About() {
   return (
     <>
-      <section className="w-full h-[100vh] font-monoFont bg-bgMidBlue pt-[20px] lg:pl-[65px] md:pl-[65px]">
+      <section className="font-monoFont bg-bgMidBlue">
         <div className="pl-[20px] pr-[20px]">
           <div className="text-textLightBlue">
-            <p>
+            <p className="pt-[20px] pb-[30px] w-full h-[100vh]">
               <span className="text-[#8464c6]">import</span> {data.name}{" "}
               <span className="text-[#8464c6]">from</span>{" "}
               <span className="text-[#54c59f]">
