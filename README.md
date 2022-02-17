@@ -8,17 +8,13 @@
 
 Checkout the website: [Kira's VSCode themed portfolio](https://kiradev.co)
 
-## How to use this portfolio template
+## 🤔 How to use this template ?
 
-- Fork this repository.
-- Clone the repository into your local machine `git clone https://github.com/<your-github-username>/vscode-themed-portfolio.git`.
-- Install the dependencies using `npm install` command.
-- Further you can add your data in `data.json` file inside data folder.
-- Now you can run `npm dev` command inside the terminal to start a local development server.
+To use this portfolio template, follow the instructions given in [USING.md]
 
 ## 🤝 Contributing
 
-All kinds of contributions are always welcomed. It is recommended to either tell the maintainers that you are working on a previously made issue or make a new issue and let the maintainers know that you are working on it.
+All kinds of issues and pull requests are welcomed 🙌. Follow the instructions given in [CONTRIBUTING.md].
 
 ## 🥳 Contributors
 
