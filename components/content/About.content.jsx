@@ -1,4 +1,4 @@
-import ConsoleLog from "../utils/syntax/ConsoleLog";
+import ConsoleLog from "../utils/syntax/ConsoleLog.utils";
 import data from "../../data/data.json";
 
 export default function About() {

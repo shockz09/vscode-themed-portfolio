@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import Sidebar from "../components/Sidebar";
-import Footer from "../components/Footer";
-import ProjectsContent from "../components/Content/Projects";
-import Navbar from "../components/Navbar/Navbar";
+import Sidebar from "../components/sidebar/Sidebar.component";
+import Footer from "../components/footer/Footer.component";
+import ProjectsContent from "../components/content/Projects.content";
+import Navbar from "../components/navbar/Navbar.component";
 
 export default function Projects() {
   return (

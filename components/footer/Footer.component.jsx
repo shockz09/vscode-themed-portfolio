@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         className="float-left pt-[2px] pb-[2px] pl-[8px] pr-[8px]"
       >
-        <div className="inline-block mt-[3px]">
+        <div className="inline-block mt-[2px]">
           <DiGitBranch />
         </div>
         <span className="inline-block pt-[2px] pb-[1.5px] pl-[8px] pr-[8px] text-[12px] font-sansFont mb-[2px]">

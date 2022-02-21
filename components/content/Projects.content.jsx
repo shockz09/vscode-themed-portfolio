@@ -1,4 +1,4 @@
-import MarkdownListElements from "../utils/syntax/MarkdownListElements";
+import MarkdownListElements from "../utils/syntax/MarkdownListElements.utils";
 import data from "../../data/data.json";
 
 export default function About() {

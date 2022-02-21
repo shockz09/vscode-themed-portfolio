@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import Sidebar from "../components/Sidebar";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar/Navbar";
+import Sidebar from "../components/sidebar/Sidebar.component";
+import Footer from "../components/footer/Footer.component";
+import Hero from "../components/hero/Hero.component";
+import Navbar from "../components/navbar/Navbar.component";
 
 export default function Home() {
   return (

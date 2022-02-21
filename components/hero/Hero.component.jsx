@@ -1,6 +1,8 @@
-import styles from "../styles/Hero.module.css";
-import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import Typed from "typed.js";
+import styles from "../../styles/Hero.module.css";
+import Discord from "./buttons/Discord.button";
+import Github from "./buttons/Github.button";
 
 export default function Hero() {
   const el = useRef(null);
@@ -33,6 +35,12 @@ export default function Hero() {
         className={`text-textDark m-[5px] p-0 text-[24px] font-[400] ${styles.heroTyped}`}
       >
         <span ref={el}></span>
+      </div>
+      <div className={`flex mt-[50px] flex-col`}>
+        <div className={`flex items-center justify-center`}>
+          <Discord />
+          <Github />
+        </div>
       </div>
     </section>
   );

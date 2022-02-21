@@ -88,6 +88,10 @@
     {
       "method": "tools",
       "comment": "Git, GitHub, VSCode, Figma, Codepen, Notion, Trello, Netlify, Vercel"
+    },
+    {
+      "method": "currentlyLearning",
+      "comment": "Solidity"
     }
   ]
 }

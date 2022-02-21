@@ -1,8 +1,8 @@
-import About from "./NavItem/About.jsx";
-import Skills from "./NavItem/Skills.jsx";
-import Projects from "./NavItem/Projects.jsx";
-import Contact from "./NavItem/Contact.jsx";
-import Home from "./NavItem/Home.jsx";
+import About from "./items/About.items";
+import Skills from "./items/Skills.items";
+import Projects from "./items/Projects.items";
+import Contact from "./items/Contact.items";
+import Home from "./items/Home.items";
 
 export default function Navbar(props) {
   return (
